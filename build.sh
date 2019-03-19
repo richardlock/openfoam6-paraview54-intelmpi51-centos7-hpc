@@ -70,5 +70,5 @@ find /opt/OpenFOAM/OpenFOAM-6/platforms/*/applications /opt/OpenFOAM/OpenFOAM-6/
 rm -rf /opt/OpenFOAM/OpenFOAM-6/platforms/*/applications /opt/OpenFOAM/OpenFOAM-6/platforms/*/src
 
 # Create tar.gz archives
-tar -zcvf openfoam6-paraview54-intelmpi51-centos7-hpc.tar.gz /opt/OpenFOAM/
+tar -zcvf openfoam6-paraview54-intelmpi51-centos7-hpc.tar.gz OpenFOAM-6 ThirdParty-6
 tar -zcvf intelmpi51-centos7-hpc.tar.gz /opt/intel
